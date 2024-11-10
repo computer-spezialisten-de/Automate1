@@ -4,7 +4,7 @@ Write-Host "Druecken Sie eine beliebige Taste, um fortzufahren..."
 Write-Host "Achtung: Die gesamte Festplatte wird formatiert, wodurch alle Daten auf diesem PC unwiderruflich gelöscht werden. Wenn Sie dies nicht fortsetzen möchten, fahren Sie bitte den PC herunter und entfernen Sie den USB-Stick."
 [void][System.Console]::ReadKey($true)  # Warten auf eine beliebige Taste
 
-Start-OSDCloud -OSVersion 'Windows 11' -OSBuild 22H2 -OSEdition Pro -OSLanguage de-de -OSLicense Retail -ZTI
+Start-OSDCloud -OSVersion 'Windows 10' -OSBuild 23H2 -OSEdition Pro -OSLanguage de-de -OSLicense Retail -ZTI
 
 #Restart from WinPE
 
